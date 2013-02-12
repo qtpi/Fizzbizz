@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby -w
-
 =begin
 
 (
@@ -27,4 +26,3 @@
 (1..100).each do |n|
   $stdout.puts n % 3 == 0 && n % 5 == 0 ? "FizzBuzz" : ( ( n % 5 == 0 ) ? "Buzz" : ( ( n % 3 == 0 ) ? "Fizz" : n
 end
-
