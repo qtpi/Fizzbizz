@@ -1,7 +1,3 @@
-# fizzbizz.rb
-# Author: Brandon <branditoway@gmail.com>
-# ---
-
 # to_str
 s = ->(c) { c.kind_of?(Array) ? c.map(&:chr).join : c }
 # fizz
