@@ -3,7 +3,7 @@
 # ---
 
 # to_str
-s = ->(c) { c.kind_of?(Array) ? c.map(&:chr).join.to_s : c.to_s }
+s = ->(c) { c.kind_of?(Array) ? c.map(&:chr).join : c }
 # fizz
 f = ->(n) { (n % 3) == 0 ? [102, 105, 122, 122] : nil }
 # buzz
